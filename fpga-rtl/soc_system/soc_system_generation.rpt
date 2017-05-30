@@ -1,0 +1,23 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate /home/roboy/workspace/neopixel_fpga/fpga-rtl/soc_system.qsys --block-symbol-file --output-directory=/home/roboy/workspace/neopixel_fpga/fpga-rtl/soc_system --family="Cyclone V" --part=5CSEMA4U23C6
+Progress: Loading fpga-rtl/soc_system.qsys
+Progress: Reading input file
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate /home/roboy/workspace/neopixel_fpga/fpga-rtl/soc_system.qsys --synthesis=VERILOG --output-directory=/home/roboy/workspace/neopixel_fpga/fpga-rtl/soc_system/synthesis --family="Cyclone V" --part=5CSEMA4U23C6
+Progress: Loading fpga-rtl/soc_system.qsys
+Progress: Reading input file
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: soc_system: Generating soc_system "soc_system" for QUARTUS_SYNTH
+Info: soc_system: Done "soc_system" with 1 modules, 1 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
