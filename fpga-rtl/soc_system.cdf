@@ -6,7 +6,7 @@ JedecChain;
 	P ActionCode(Ign)
 		Device PartName(SOCVHPS) MfrSpec(OpMask(0));
 	P ActionCode(Cfg)
-		Device PartName(5CSEMA4U23) Path("/home/roboy/workspace/neopixel_fpga/fpga-rtl/") File("soc_system.sof") MfrSpec(OpMask(1));
+		Device PartName(5CSEMA4U23) Path("/home/roboy/workspace/fpgaI2C/fpga-rtl/") File("soc_system.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

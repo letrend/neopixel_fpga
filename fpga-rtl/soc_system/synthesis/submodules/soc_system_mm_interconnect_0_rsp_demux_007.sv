@@ -11,9 +11,9 @@
 // agreement for further details.
 
 
-// $Id: //acds/rel/17.0std/ip/merlin/altera_merlin_demultiplexer/altera_merlin_demultiplexer.sv.terp#1 $
+// $Id: //acds/rel/16.1/ip/merlin/altera_merlin_demultiplexer/altera_merlin_demultiplexer.sv.terp#1 $
 // $Revision: #1 $
-// $Date: 2017/01/22 $
+// $Date: 2016/08/07 $
 // $Author: swbranch $
 
 // -------------------------------------
@@ -28,7 +28,7 @@
 // ------------------------------------------
 // Generation parameters:
 //   output_name:         soc_system_mm_interconnect_0_rsp_demux_007
-//   ST_DATA_W:           129
+//   ST_DATA_W:           102
 //   ST_CHANNEL_W:        8
 //   NUM_OUTPUTS:         2
 //   VALID_WIDTH:         1
@@ -46,7 +46,7 @@ module soc_system_mm_interconnect_0_rsp_demux_007
     // Sink
     // -------------------
     input  [1-1      : 0]   sink_valid,
-    input  [129-1    : 0]   sink_data, // ST_DATA_W=129
+    input  [102-1    : 0]   sink_data, // ST_DATA_W=102
     input  [8-1 : 0]   sink_channel, // ST_CHANNEL_W=8
     input                         sink_startofpacket,
     input                         sink_endofpacket,
@@ -56,14 +56,14 @@ module soc_system_mm_interconnect_0_rsp_demux_007
     // Sources 
     // -------------------
     output reg                      src0_valid,
-    output reg [129-1    : 0] src0_data, // ST_DATA_W=129
+    output reg [102-1    : 0] src0_data, // ST_DATA_W=102
     output reg [8-1 : 0] src0_channel, // ST_CHANNEL_W=8
     output reg                      src0_startofpacket,
     output reg                      src0_endofpacket,
     input                           src0_ready,
 
     output reg                      src1_valid,
-    output reg [129-1    : 0] src1_data, // ST_DATA_W=129
+    output reg [102-1    : 0] src1_data, // ST_DATA_W=102
     output reg [8-1 : 0] src1_channel, // ST_CHANNEL_W=8
     output reg                      src1_startofpacket,
     output reg                      src1_endofpacket,
